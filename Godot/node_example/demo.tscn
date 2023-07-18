@@ -12,7 +12,7 @@ script = ExtResource("2")
 
 [node name="FileDownloader" type="HTTPRequest" parent="."]
 script = ExtResource("1")
-file_urls = PackedStringArray("http://localhost:8000/cards.zip", "http://localhost:8000/dl-resources.zip")
+file_urls = PackedStringArray("http://localhost:8000/patch.b64", "http://localhost:8000/patch.gz")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
